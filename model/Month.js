@@ -4,32 +4,32 @@ const monthSchema = new mongoose.Schema({
   budget: {
     type: Number,
     required: true,
-    min: 1,
+    min: 0,
   },
   entertainment:{
     type: Number,
     required: true,
-    min: 1,
+    min: 0,
   },
   bills:{
     type: Number,
     required: true,
-    min: 1,
+    min: 0,
   },
   groceries:{
     type: Number,
     required: true,
-    min: 1,
+    min: 0,
   },
   other:{
     type: Number,
     required: true,
-    min: 1,
+    min: 0,
   },
   month:{
     type: String,
     required: true,
-    min: 1
+    min: 0,
   },
   user: {
     type: String,
