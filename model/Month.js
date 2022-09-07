@@ -34,7 +34,7 @@ const monthSchema = new mongoose.Schema({
   user: {
     type: String,
     required: true,
-    min: 1,
+    min: 0,
   },
   date: {
     type: Date,
